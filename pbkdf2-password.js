@@ -78,7 +78,7 @@ module.exports = function build(options) {
    *  If the `salt` is left undefined, a new salt is generated.
    *
    *  The callback will be called with the following arguments:
-   *   - the error, if something when wrong.
+   *   - the error, if something went wrong.
    *   - the password.
    *   - the salt, encoded in base64.
    *   - the hash, encoded in base64.
